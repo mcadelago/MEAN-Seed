@@ -1,0 +1,14 @@
+{
+    "name": "MEAN-Seed",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "3.2.6",
+        "jade": "0.31.2",
+        "mongoose": "3.8.0",
+        "mocha": "1.14.0",
+        "socket.io": "0.9.16",
+        "socket.io-client": "0.9.16",
+        "restler": "2.0.1"
+    }
+}
