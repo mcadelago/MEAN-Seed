@@ -5,7 +5,7 @@ Built on the angular-express-seed by btford here: https://github.com/btford/angu
 This is a seed project for building an app using MongoDB, Express.js, Angular.js, and Node.js. My
 enhancements to btford's project include Bootstrap 3.0 integration (along with Angular-UI/Bootstrap
 for Boostrap directives), REST API to local MongoDB instance via Mongoose, Socket.IO support, and
-unit testing via Mocha. This seed app contains sample code for creating a realtime updating app.
+unit testing via Mocha. This seed app contains sample code for a realtime chat app.
 
 ### Running this app
 
