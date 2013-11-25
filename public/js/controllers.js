@@ -7,10 +7,11 @@ angular.module('myApp.controllers', []).
         //main app controller code here
 
     }).
-    controller('MyCtrl1', function ($scope, Messages) {
+    controller('MyCtrl1', function ($scope, $location, Messages) {
+
 
         //connect to socket.io service
-        var socket = io.connect('http://localhost');
+        var socket = io.connect('http://' + $location.host());
 
         var getMessages = function () {
             Messages.get(function (err, data) {
